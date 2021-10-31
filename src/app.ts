@@ -8,6 +8,9 @@ import './database';
 import './shared/container';
 import { router } from './routes';
 import { AppError } from './shared/errors/AppError';
+import * as dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
 
